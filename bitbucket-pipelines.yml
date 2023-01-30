@@ -1,0 +1,15 @@
+#REMINDER: DO NOT DELETE. THIS IS A SAMPLE CONFIGURAITON IF WE WANT TO DEPLOY TO HEROKU USING CI/CD IMPLEMENTATION
+
+#image: node:9.7.1
+#clone:
+#  depth: full
+#pipelines:
+#  default:
+#    - step:
+#        caches:
+#          - node
+#        script:
+#          - npm install
+#          - npm test
+#          - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git dev:master
+#          # dev branch in local: master branch in heroku

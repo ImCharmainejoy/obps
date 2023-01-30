@@ -1,0 +1,1 @@
+export const DEFAULT_EVENT = 'DEFAULT_EVENT'

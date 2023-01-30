@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Helvetica Neue 1';
+    src: url('hinted-HelveticaNeue-Bold.eot');
+    src: url('hinted-HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+    url('hinted-HelveticaNeue-Bold.woff2') format('woff2'),
+    url('hinted-HelveticaNeue-Bold.woff') format('woff'),
+    url('hinted-HelveticaNeue-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.helvetica-header-mac {
+  font-family: 'Helvetica Neue 1';
+  font-weight: bold;
+  font-style: italic !important;
+}
+
+

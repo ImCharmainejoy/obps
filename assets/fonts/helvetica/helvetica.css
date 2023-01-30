@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('hinted-HelveticaNeue.eot');
+    src: url('hinted-HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+    url('hinted-HelveticaNeue.woff2') format('woff2'),
+    url('hinted-HelveticaNeue.woff') format('woff'),
+    url('hinted-HelveticaNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.helvetica-header {
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  font-style: italic !important;
+}
+
+.helvetica {
+  font-family: 'Helvetica Neue';
+}
+
+.footer {
+  font-size: 20px !important;
+  font-family: 'Helvetica Neue' !important;
+}
