@@ -1,6 +1,6 @@
-<template>
+<!-- <template>
   <h3>USER MANUAL</h3>
-</template>
+</template> -->
 <template>
   <v-container fluid fill-height>
     <client-only>
