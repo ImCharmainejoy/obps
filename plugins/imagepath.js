@@ -11,6 +11,9 @@ export default {
     infosoft_logo: require('@/assets/images/infosoft-logo.png'),
     davaolifeishere_logo: require('@/assets/images/davaolifeishere.png'),
     citc_logo: require('@/assets/images/davao.png'),
-    no_bg_logo: require('@/assets/images/no-bg-logo.png')
+    no_bg_logo: require('@/assets/images/no-bg-logo.png'),
+
+    register1: require('@/assets/images/ocbo/register1.webp'),
+    register2: require('@/assets/images/ocbo/register2.webp')
   })
 }
