@@ -96,10 +96,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .tabs {
-    text-align: left;
-  }
-    
-</style>
