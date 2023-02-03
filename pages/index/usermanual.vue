@@ -20,25 +20,42 @@
             </v-tab>
 
             <v-tab-item>
+
               <v-card flat>
                 <v-card-text>
                   <p><h2>Registration</h2></p>
-                  <p>
-                    <h3>Step 1</h3>
-                    <v-img
-                      contain
-                      max-width="80%"
-                      :src="register1"
-                    ></v-img>
-                  </p>
-                  <p>
-                    <h3>Step 2</h3>
-                    <v-img
-                      contain
-                      max-width="80%"
-                      :src="register2"
-                    ></v-img> 
-                  </p>
+                  
+                  <v-carousel
+                    cycle
+                    height="auto"
+                    hide-delimiter-background
+                    show-arrows-on-hover
+                  >
+                    <v-carousel-item>
+                      <h2 class="steps">Step {1</h2>
+                      <v-img
+                        contain
+                        :src="register1"
+                      ></v-img>
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h2 class="steps">Step 2</h2>
+                      <v-img
+                        contain
+                        :src="register2"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h2 class="steps">Step 3</h2>
+                      <v-img
+                        contain
+                        :src="register3"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                  </v-carousel>
                 </v-card-text>
               </v-card>
             </v-tab-item>
@@ -61,7 +78,7 @@
 
 <script>
 import Global from '~/plugins/mixins/global'
-import { mdiAccountPlus, mdiOfficeBuilding, mdiFrequentlyAskedQuestions } from '@mdi/js'
+import { mdiAccountPlus, mdiOfficeBuilding } from '@mdi/js'
 import imagePath from '~/plugins/imagepath'
 // import { isEmpty } from 'lodash'
 export default {
@@ -70,29 +87,25 @@ export default {
     return {
       items: [
         { title: 'FAQ', icon: 'mdi-frequently-asked-questions', name: 'index-faqs' },
-          { title: 'User Manual', icon: 'mdi-folder-information', name: 'index-usermanual' }
+        { title: 'User Manual', icon: 'mdi-folder-information', name: 'index-usermanual' }
       ],
       icons: {
         mdiAccountPlus,
         mdiOfficeBuilding,
-        mdiFrequentlyAskedQuestions,
       },
+      // steps: [
+      //   { number: 1, image: 'register1' },
+      //   { number: 2, image: 'register2' },
+      //   { number: 3, image: 'register3' }
+      // ]
     }
   },
-  created() {
-    // let user = null
-    // if (process.client) {
-    //   const token = localStorage.getItem('token')
-    //   if (!isEmpty(localStorage.vuex)) {
-    //     user = JSON.parse(localStorage.vuex).user.user
-    //   }
-    //   if (!isEmpty(user) && token) {
-    //     this.goTo('index-faqs')
-    //   } else {
-    //     localStorage.clear()
-    //     this.goTo('index')
-    //   }
-    // }
-  }
 }
 </script>
+
+<style>
+  .steps {
+    padding-bottom: 1rem;
+    color: #223345;
+  }
+</style>
