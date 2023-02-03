@@ -32,7 +32,7 @@
                     show-arrows-on-hover
                   >
                     <v-carousel-item>
-                      <h2 class="steps">Step {1</h2>
+                      <h2 class="steps">Step 1</h2>
                       <v-img
                         contain
                         :src="register1"
@@ -52,6 +52,14 @@
                       <v-img
                         contain
                         :src="register3"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h2 class="steps">Step 4</h2>
+                      <v-img
+                        contain
+                        :src="register4"
                       ></v-img> 
                     </v-carousel-item>
 
