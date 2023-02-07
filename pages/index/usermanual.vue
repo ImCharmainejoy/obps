@@ -35,8 +35,8 @@
                         ></v-radio>
                         <v-radio
                           color="#223345"
-                          label="Bisaya"
-                          value="bisaya"
+                          label="Tagalog"
+                          value="tagalog"
                         ></v-radio>
                       </v-radio-group>
                     </section>
@@ -98,31 +98,45 @@
                       <span class="manual-title">I-click ang Register</span>
                     </p>
                     <p class="manual-info">
-                      Sa ulalom sa Login na button, naa kay makita na Register button. Pindota na aron ma adto ka sa registration page.
-                    </p>
-                    
+                      Hanapin po natin ang 'Register' button, na matatagpuan sa ibabang-kanan ng screen, malapit sa 'Login' button. Kapag naclick na po ito, mapupunta na po tayo sa registration page.                    </p>
                     <p>
                       <span class="manual-step">Step 2:</span>
-                      <span class="manual-title">Pindota and Proceed paggawas sa PRIVACY POLICY</span>
+                      <span class="manual-title">I-click ang Proceed paglabas sa PRIVACY POLICY</span>
                     </p>
                     <p class="manual-info">
-                      Bag-o ka maka adto sa registration page, pahibal-on sa ka namo sa among polisiya sa privacy. Pag okay na, pindota ang Proceed button sa ulalom.
+                      Bago po namin kayo dalhin sa registration page, ibibigay po muna namin sa iyo ang ilang detalye tungkol sa aming privacy policy. Mapapansin po dito ang detalyadong listahan ng data na kami kinukuha. Upang magpatuloy, pindotin ang 'Proceed' button na matatagpuan sa ibabang-kanan
                     </p>
 
                     <p>
                       <span class="manual-step">Step 3:</span>
-                      <span class="manual-title">Pagpili og Applicant Type</span>
+                      <span class="manual-title">Pumili ng Applicant Type</span>
                     </p>
                     <p class="manual-info">
-                      Wala ko kabalo unsaon pag-explain.
+                      Bilang seguridad, inirerekomenda namin na ang may-ari ang mag-apply sa proseso. Gayunpaman, pinapayagan din namin ang mga kinatawan, basta't sila ay lisenyadong arkitekto o engineer. Ngunit kailangan po nilang mag-upload ng kanilang Professional Regulation Commission Identification (PRC ID) at Professional Tax Receipt (PTR) sa Portable Document Format (PDF) para sa layunin ng pag-verify.
                     </p>
 
                     <p>
                       <span class="manual-step">Step 4:</span>
-                      <span class="manual-title">Sulatan tanan naay Red-Star</span>
+                      <span class="manual-title">Punan ang lahat ng may pulang bituin (*)</span>
                     </p>
                     <p class="manual-info">
-                      Ambot, twinkle twinkle little start siguro.
+                      Siguraduhin na lahat ng mga field na may pamagat na pulang bituin <a style="color:#FF0000">*</a> ay tama at kumpleto
+                    </p>
+
+                    <p>
+                      <span class="manual-step">Step 5:</span>
+                      <span class="manual-title">Punan ang impormasyon sa pag-login</span>
+                    </p>
+                    <p class="manual-info">
+                      Sigurodahing ang pinaglalaman ng inyong password ng hindi bababa sa 8 na mga character. Upang matapos ang proseso, paki kumpirma po ng inyong password sa pamamagitan ng pag-re-enter nito at i-click ang "Submit".
+                    </p>
+
+                    <p>
+                      <span class="manual-step">Step 6:</span>
+                      <span class="manual-title">Tingnan ang Verification sa Email</span>
+                    </p>
+                    <p class="manual-info">
+                      Ang iyong pagrehistro ay maaaring tukuyin sa pamamagitan ng email na korespondensya.
                     </p>
 
                   </div>
@@ -184,6 +198,15 @@
                         contain
                         width="35rem"
                         :src="register5"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 6</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="register6"
                       ></v-img> 
                     </v-carousel-item>
 
