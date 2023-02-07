@@ -48,7 +48,7 @@
                       <span class="manual-title">Click Register</span>
                     </p>
                     <p class="manual-info">
-                      Look for the Register button at the bottom, right next to Login. Click it to redirect you to the registration page.
+                      Kindly locate the 'Register' button, situated at the bottom-right of the screen, adjacent to the 'Login' button. Upon clicking it, you will be redirected to the registration page.
                     </p>
                     
                     <p>
@@ -56,7 +56,7 @@
                       <span class="manual-title">Click Proceed when PRIVACY POLICY appears</span>
                     </p>
                     <p class="manual-info">
-                      Before we redirect you to our registration page, we will provide you with information about your privacy. Listed inside are the information we gather. To proceed, click the button at the lower right.
+                      Before bringing you to the registration page, allow us to tell you a little bit about our privacy policy. You'll notice a detailed list of the data we gather within. To continue, kindly click the button 'Proceed' located at the lower right.
                     </p>
 
                     <p>
@@ -64,7 +64,7 @@
                       <span class="manual-title">Select Applicant Type</span>
                     </p>
                     <p class="manual-info">
-                      By default, we recommend the owner apply, but we also allow representatives as long as they're licensed architects or engineers. You may need to upload your PRC ID and PTR in PDF format.
+                      As a default recommendation, we suggest that the owner applies for the process. However, we also permit representatives, provided that they are licensed architects or engineers. Please note that you may be required to upload your Professional Regulation Commission Identification (PRC ID) and Professional Tax Receipt (PTR) in Portable Document Format (PDF) for verification purposes.
                     </p>
 
                     <p>
@@ -72,7 +72,7 @@
                       <span class="manual-title">Fill-up Everything with Red-Star</span>
                     </p>
                     <p class="manual-info">
-                      Make sure everything that has a red star <a style="color:#FF0000">*</a> on it is properly filled up.
+                      Kindly ensure that all fields marked with a red star <a style="color:#FF0000">*</a> are accurately and completely filled in.
                     </p>
 
                     <p>
@@ -80,7 +80,7 @@
                       <span class="manual-title">Fill-up Login Information</span>
                     </p>
                     <p class="manual-info">
-                      Make sure your password is 8 characters or more.
+                      Please ensure that your password consists of a minimum of 8 characters. To complete the process, kindly confirm your password by re-entering it and click 'Submit'.
                     </p>
 
                     <p>
@@ -88,14 +88,14 @@
                       <span class="manual-title">Check E-mail Verification</span>
                     </p>
                     <p class="manual-info">
-                      You may confirm your registration via email.
+                      Your registration may be confirmed through email correspondence.
                     </p>
                   </div>
 
                   <div v-else>
                     <p>
                       <span class="manual-step">Step 1:</span>
-                      <span class="manual-title">Pindota ang Register</span>
+                      <span class="manual-title">I-click ang Register</span>
                     </p>
                     <p class="manual-info">
                       Sa ulalom sa Login na button, naa kay makita na Register button. Pindota na aron ma adto ka sa registration page.
@@ -124,6 +124,7 @@
                     <p class="manual-info">
                       Ambot, twinkle twinkle little start siguro.
                     </p>
+
                   </div>
 
                   <v-checkbox
@@ -136,16 +137,16 @@
                   <v-flex align-self-center>
                   <v-carousel
                     v-if="showPictures"
-                    cycle
-                    height="50%"
+                    height="auto"
                     hide-delimiter-background
                     show-arrows-on-hover
-                    padding
+                    class="carousel"
                   >
                     <v-carousel-item>
                       <h3 class="steps">Step 1</h3>
                       <v-img
                         contain
+                        width="35rem"
                         :src="register1"
                       ></v-img>
                     </v-carousel-item>
@@ -154,6 +155,7 @@
                       <h3 class="steps">Step 2</h3>
                       <v-img
                         contain
+                        width="35rem"
                         :src="register2"
                       ></v-img> 
                     </v-carousel-item>
@@ -162,6 +164,7 @@
                       <h3 class="steps">Step 3</h3>
                       <v-img
                         contain
+                        width="35rem"
                         :src="register3"
                       ></v-img> 
                     </v-carousel-item>
@@ -170,7 +173,17 @@
                       <h3 class="steps">Step 4</h3>
                       <v-img
                         contain
+                        width="35rem"
                         :src="register4"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 5</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="register5"
                       ></v-img> 
                     </v-carousel-item>
 
@@ -251,5 +264,15 @@ export default {
 
   .manual-info {
     padding-bottom: 1rem;
+  }
+
+  .carousel {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 </style>
