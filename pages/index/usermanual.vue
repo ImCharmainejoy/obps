@@ -90,58 +90,9 @@
                     <p class="manual-info">
                       Your registration may be confirmed through email correspondence.
                     </p>
-                  </div>
 
-                  <div v-else>
-                    <p>
-                      <span class="manual-step">Step 1:</span>
-                      <span class="manual-title">I-click ang Register</span>
-                    </p>
-                    <p class="manual-info">
-                      Hanapin po natin ang 'Register' button, na matatagpuan sa ibabang-kanan ng screen, malapit sa 'Login' button. Kapag naclick na po ito, mapupunta na po tayo sa registration page.                    </p>
-                    <p>
-                      <span class="manual-step">Step 2:</span>
-                      <span class="manual-title">I-click ang Proceed paglabas sa PRIVACY POLICY</span>
-                    </p>
-                    <p class="manual-info">
-                      Bago po namin kayo dalhin sa registration page, ibibigay po muna namin sa iyo ang ilang detalye tungkol sa aming privacy policy. Mapapansin po dito ang detalyadong listahan ng data na kami kinukuha. Upang magpatuloy, pindotin ang 'Proceed' button na matatagpuan sa ibabang-kanan
-                    </p>
 
-                    <p>
-                      <span class="manual-step">Step 3:</span>
-                      <span class="manual-title">Pumili ng Applicant Type</span>
-                    </p>
-                    <p class="manual-info">
-                      Bilang seguridad, inirerekomenda namin na ang may-ari ang mag-apply sa proseso. Gayunpaman, pinapayagan din namin ang mga kinatawan, basta't sila ay lisenyadong arkitekto o engineer. Ngunit kailangan po nilang mag-upload ng kanilang Professional Regulation Commission Identification (PRC ID) at Professional Tax Receipt (PTR) sa Portable Document Format (PDF) para sa layunin ng pag-verify.
-                    </p>
-
-                    <p>
-                      <span class="manual-step">Step 4:</span>
-                      <span class="manual-title">Punan ang lahat ng may pulang bituin (*)</span>
-                    </p>
-                    <p class="manual-info">
-                      Siguraduhin na lahat ng mga field na may pamagat na pulang bituin <a style="color:#FF0000">*</a> ay tama at kumpleto
-                    </p>
-
-                    <p>
-                      <span class="manual-step">Step 5:</span>
-                      <span class="manual-title">Punan ang impormasyon sa pag-login</span>
-                    </p>
-                    <p class="manual-info">
-                      Sigurodahing ang pinaglalaman ng inyong password ng hindi bababa sa 8 na mga character. Upang matapos ang proseso, paki kumpirma po ng inyong password sa pamamagitan ng pag-re-enter nito at i-click ang "Submit".
-                    </p>
-
-                    <p>
-                      <span class="manual-step">Step 6:</span>
-                      <span class="manual-title">Tingnan ang Verification sa Email</span>
-                    </p>
-                    <p class="manual-info">
-                      Ang iyong pagrehistro ay maaaring tukuyin sa pamamagitan ng email na korespondensya.
-                    </p>
-
-                  </div>
-
-                  <v-checkbox
+                    <v-checkbox
                     v-model="showPictures"
                     label="Show Pictures"
                     color="#223345"
@@ -212,6 +163,130 @@
 
                   </v-carousel>
                 </v-flex>
+                  </div>
+
+                  <div v-else>
+                    <p>
+                      <span class="manual-step">Step 1:</span>
+                      <span class="manual-title">I-click ang Register</span>
+                    </p>
+                    <p class="manual-info">
+                      Hanapin po natin ang 'Register' button, na matatagpuan sa ibabang-kanan ng screen, malapit sa 'Login' button. Kapag naclick na po ito, mapupunta na po tayo sa registration page.                    </p>
+                    <p>
+                      <span class="manual-step">Step 2:</span>
+                      <span class="manual-title">I-click ang Proceed paglabas sa PRIVACY POLICY</span>
+                    </p>
+                    <p class="manual-info">
+                      Bago po namin kayo dalhin sa registration page, ibibigay po muna namin sa iyo ang ilang detalye tungkol sa aming privacy policy. Mapapansin po dito ang detalyadong listahan ng data na aming kinukuha. Upang makapagpatuloy, pindotin ang 'Proceed' button na matatagpuan sa kanang-baba
+                    </p>
+
+                    <p>
+                      <span class="manual-step">Step 3:</span>
+                      <span class="manual-title">Pumili ng Applicant Type</span>
+                    </p>
+                    <p class="manual-info">
+                      Bilang seguridad, inirerekomenda namin na ang may-ari ang mag-apply sa proseso. Gayunpaman, pinapayagan din namin ang mga kinatawan, basta't sila ay lisenyadong arkitekto o engineer. Ngunit kailangan po nilang mag-upload ng kanilang Professional Regulation Commission Identification (PRC ID) at Professional Tax Receipt (PTR) sa Portable Document Format (PDF) para sa layunin ng pag-verify.
+                    </p>
+
+                    <p>
+                      <span class="manual-step">Step 4:</span>
+                      <span class="manual-title">Punan ang lahat ng may pulang bituin (*)</span>
+                    </p>
+                    <p class="manual-info">
+                      Siguraduhin na lahat ng mga field na may pamagat na pulang bituin <a style="color:#FF0000">*</a> ay tama at kumpleto
+                    </p>
+
+                    <p>
+                      <span class="manual-step">Step 5:</span>
+                      <span class="manual-title">Punan ang impormasyon sa pag-login</span>
+                    </p>
+                    <p class="manual-info">
+                      Sigurodahing ang pinaglalaman ng inyong password ng hindi bababa sa 8 na mga character. Upang matapos ang proseso, paki kumpirma po ng inyong password sa pamamagitan ng pag-re-enter nito at i-click ang "Submit".
+                    </p>
+
+                    <p>
+                      <span class="manual-step">Step 6:</span>
+                      <span class="manual-title">Tingnan ang Verification sa Email</span>
+                    </p>
+                    <p class="manual-info">
+                      Ang iyong pagrehistro ay maaaring tukuyin sa pamamagitan ng email na korespondensya.
+                    </p>
+                    
+
+                    <v-checkbox
+                    v-model="showPictures"
+                    label="Ipakita ang mga larawan"
+                    color="#223345"
+                    hide-details
+                  ></v-checkbox>
+                  
+                  <v-flex align-self-center>
+                  <v-carousel
+                    v-if="showPictures"
+                    height="auto"
+                    hide-delimiter-background
+                    show-arrows-on-hover
+                    class="carousel"
+                  >
+                    <v-carousel-item>
+                      <h3 class="steps">Step 1</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="registertagalog1"
+                      ></v-img>
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 2</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="registertagalog2"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 3</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="register3"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 4</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="register4"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 5</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="register5"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                    <v-carousel-item>
+                      <h3 class="steps">Step 6</h3>
+                      <v-img
+                        contain
+                        width="35rem"
+                        :src="register6"
+                      ></v-img> 
+                    </v-carousel-item>
+
+                  </v-carousel>
+                </v-flex>
+                  </div>
+
+                  
                 </v-card-text>
               </v-card>
             </v-tab-item>
