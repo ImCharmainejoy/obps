@@ -22,5 +22,9 @@ export default {
 
     registertagalog1: require('@/assets/images/ocbo/register-tagalog1.webp'),
     registertagalog2: require('@/assets/images/ocbo/register-tagalog2.webp'),
+    registertagalog3: require('@/assets/images/ocbo/register-tagalog3.webp'),
+    registertagalog4: require('@/assets/images/ocbo/register-tagalog4.webp'),
+    registertagalog5: require('@/assets/images/ocbo/register-tagalog5.webp'),
+    registertagalog6: require('@/assets/images/ocbo/register-tagalog6.webp'),
   })
 }
