@@ -251,7 +251,7 @@
                       <v-img
                         contain
                         width="35rem"
-                        :src="register3"
+                        :src="registertagalog3"
                       ></v-img> 
                     </v-carousel-item>
 
@@ -260,7 +260,7 @@
                       <v-img
                         contain
                         width="35rem"
-                        :src="register4"
+                        :src="registertagalog4"
                       ></v-img> 
                     </v-carousel-item>
 
@@ -269,7 +269,7 @@
                       <v-img
                         contain
                         width="35rem"
-                        :src="register5"
+                        :src="registertagalog5"
                       ></v-img> 
                     </v-carousel-item>
 
@@ -278,7 +278,7 @@
                       <v-img
                         contain
                         width="35rem"
-                        :src="register6"
+                        :src="registertagalog6"
                       ></v-img> 
                     </v-carousel-item>
 
