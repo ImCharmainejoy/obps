@@ -69,7 +69,7 @@
 
                     <p>
                       <span class="manual-step">Step 4:</span>
-                      <span class="manual-title">Fill-up Everything with Red-Star</span>
+                      <span class="manual-title">Fill in everything with red-star</span>
                     </p>
                     <p class="manual-info">
                       Kindly ensure that all fields marked with a red star <a style="color:#FF0000">*</a> are accurately and completely filled in.
@@ -77,7 +77,7 @@
 
                     <p>
                       <span class="manual-step">Step 5:</span>
-                      <span class="manual-title">Fill-up Login Information</span>
+                      <span class="manual-title">Fill in Login Information</span>
                     </p>
                     <p class="manual-info">
                       Please ensure that your password consists of a minimum of 8 characters. To complete the process, kindly confirm your password by re-entering it and click 'Submit'.
@@ -171,7 +171,7 @@
                       <span class="manual-title">I-click ang Register</span>
                     </p>
                     <p class="manual-info">
-                      Hanapin po natin ang 'Register' button, na matatagpuan sa ibabang-kanan ng screen, malapit sa 'Login' button. Kapag naclick na po ito, mapupunta na po tayo sa registration page.                    </p>
+                      Hanapin po natin ang 'Register' button, na matatagpuan sa babang-kanan ng screen, malapit sa 'Login' button. Kapag naclick na po ito, mapupunta na po tayo sa registration page.                    </p>
                     <p>
                       <span class="manual-step">Step 2:</span>
                       <span class="manual-title">I-click ang Proceed paglabas sa PRIVACY POLICY</span>
@@ -201,7 +201,7 @@
                       <span class="manual-title">Punan ang impormasyon sa pag-login</span>
                     </p>
                     <p class="manual-info">
-                      Sigurodahing ang pinaglalaman ng inyong password ng hindi bababa sa 8 na mga character. Upang matapos ang proseso, paki kumpirma po ng inyong password sa pamamagitan ng pag-re-enter nito at i-click ang "Submit".
+                      Siguraduhing ang pinaglalaman ng inyong password ng hindi bababa sa 8 na mga character. Upang matapos ang proseso, paki kumpirma po ng inyong password sa pamamagitan ng pag-re-enter nito at i-click ang "Submit".
                     </p>
 
                     <p>
