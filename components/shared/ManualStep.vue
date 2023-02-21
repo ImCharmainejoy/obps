@@ -41,6 +41,31 @@
         {{ info.substring(18) }}
       </span>
 
+      <span v-else-if="info.includes('Piliin ang Sole Proprietorship:')">
+        <b>{{ info.substring(0, 31) }}</b>
+        {{ info.substring(31) }}
+      </span>
+
+      <span v-else-if="info.includes('Piliin ang Sole Proprietorship:')">
+        <b>{{ info.substring(0, 31) }}</b>
+        {{ info.substring(31) }}
+      </span>
+
+      <span v-else-if="info.includes('Piliin ang Partnership/Corporation:')">
+        <b>{{ info.substring(0, 35) }}</b>
+        {{ info.substring(35) }}
+      </span>
+
+      <span v-else-if="info.includes('Piliin ang Community Association:')">
+        <b>{{ info.substring(0, 33) }}</b>
+        {{ info.substring(33) }}
+      </span>
+
+      <span v-else-if="info.includes('Piliin ang Government:')">
+        <b>{{ info.substring(0, 22) }}</b>
+        {{ info.substring(22) }}
+      </span>
+
       <span v-else>
         {{ info }}
       </span>
